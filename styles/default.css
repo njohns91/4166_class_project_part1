@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+
+/* ******** INDEX START ******** */
+/*Body*/
+
+body
+{
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+.page-header { 
+    background-color: #2C462C;
+    padding: 50px;
+    border-bottom: #F4924B 2px dotted;
+}
+
+.page-head {
+    float: left;
+    margin-top: -30px;
+    margin-left: -20px;
+}  
+
+
+.logo {
+    width: 150px;
+    float: left;
+    padding-left: 45px;
+}
+
+.header-nav {
+    float: right;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-top: -10px;
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #F4924B;
+    font-family: lobster;
+}
+.event {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 80px;
+    font-size: x-large;
+    padding: 5px 5px 5px 5px;
+}
+.page-events {
+    background-color: #2C462C;
+}
+
+.page-events a
+{
+    text-decoration: none;
+    color: #F4924B;
+    font-family: lobster;
+}
+
+/*Main*/
+
+.welcome h1
+{
+    font-family: nunito;
+    text-align: center;
+}
+
+.intro-para
+{
+    font-size: medium;
+    font-family: nunito;
+    text-align: center;
+}
+
+/*Footer*/
+footer
+{
+    margin: 0px;
+    padding: 0px;
+    margin-top: auto;
+}
+.footer-nav h3
+{
+    text-align: left;
+    font-size: small;
+    font-family: nunito;
+    color: #F4924B;
+    padding-left: 30px;
+}
+
+.page-footer
+{
+    background-color: #2C462C;
+    padding: .5px;
+    margin: 0px;
+}
+
+
+/* ******** INDEX END ******** */
