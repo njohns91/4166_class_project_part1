@@ -220,13 +220,15 @@ option
     width: 10%;
     padding-left: 6cm;
     float: left;
+    margin: 0cm;
 }
 
 .basic-info
 {
     font-family: nunito;
-    margin-top: 1cm;
-    margin-left: 12cm;
+    float:left;
+    margin: 0%;
+    padding-left: 1cm;
 }
 
 /* ******** Event End ******** */
