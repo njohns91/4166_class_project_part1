@@ -106,3 +106,24 @@ footer
 
 
 /* ******** INDEX END ******** */
+
+/* ******** Events Start ******** */
+.event-header h1
+{
+    font-family: nunito;
+    text-align: center;
+}
+
+.both-events h2
+{
+    padding-left: 5cm;
+    font-family: nunito;
+}
+
+.both-events p
+{
+    text-decoration: none;
+    padding-left: 5cm;
+    font-family: nunito;
+}
+/* ******** Events END ******** */
