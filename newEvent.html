@@ -15,12 +15,57 @@
 
     <div class="page-events">
         <ul class="event">
-            <li><a href="event.html">Events</a></li>
+            <li><a href="events.html">Events</a></li>
         </ul>
     </div>
 
     <main>
+        <form>
+            <div class="new-header">
+                <h1>Reservation Form</h1>
+                <br>
+            </div>
 
+            <div class="form-name">
+                <label for="name">Name:</label><br>
+                <textarea id="reason" class="reason" rows="1" cols="50" required></textarea>
+            </div><br>
+
+            <div class="form-reason">
+                <label for="name">Reason For Reservation:</label><br>
+                <textarea id="reason" class="reason" rows="4" cols="50" required></textarea>
+            </div><br>
+
+        <div class = "start-end-time">
+            <label for="starttime">Start (Date and Time):</label><br>
+            <input type="datetime-local" class="starttime" name="starttime" required>
+            <br> <br>
+            <label for="endtime">End (Date and Time):</label><br>
+            <input type="datetime-local" class="endtime" name="endtime" required>
+        </div> <br>
+
+        <div class="form-category">
+            <label for="attraction">Attraction:</label>
+            <select name="attraction" class="city" size="1" required>
+                <option value="" disabled selected>Pick One</option>
+                <option value="bail-rides">Hay Bail Rides</option>
+                <option value="maze">Corn Maze</option>
+                <option value="hanted-house">Haunted House</option>
+                <option value="pumpkin-carving">Pumpkin Carving</option>
+                <option value="Other">Other</option>
+            </select>
+        </div><br>
+
+        <div class ="form-pic">
+            <label for="pic">Picture of Main Guest:</label><br>
+            <input type="file" class="guest-pic" accept="image/*" required>
+        </div><br><br>
+
+        <div class = "button">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
     </main>
 
     <Footer>
