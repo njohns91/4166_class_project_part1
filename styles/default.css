@@ -15,20 +15,20 @@ body
 /*Header*/
 .page-header { 
     background-color: #2C462C;
-    padding: 50px;
+    padding: 10px;
     border-bottom: #F4924B 2px dotted;
 }
 
 .page-head {
     float: left;
-    margin-top: -30px;
-    margin-left: -20px;
+    margin: 0px;
 }  
 
 .logo {
     width: 150px;
     float: left;
     padding-left: 45px;
+    margin-bottom: 5px;
 }
 
 .header-nav {
@@ -37,9 +37,10 @@ body
 
 .header-nav li {
     display: inline-block;
-    margin-top: -10px;
-    font-size: x-large;
-    padding-left: 20px;
+    margin-top: 0px;
+    font-size: xx-large;
+    padding-right: 40px;
+    padding-top: 10px;
 }
 
 .header-nav a {
@@ -70,6 +71,7 @@ body
     text-decoration: none;
     color: #F4924B;
     font-family: lobster;
+    font-size: xx-large;
 }
 
 .page-events li :hover
@@ -99,6 +101,7 @@ footer
     margin: 0px;
     padding: 0px;
     margin-top: auto;
+    background-color: #2C462C;
 }
 .footer-nav h3
 {
