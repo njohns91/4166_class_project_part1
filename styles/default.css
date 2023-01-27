@@ -226,4 +226,12 @@ option
     padding-left: 1cm;
 }
 
+.edit-pic img
+{
+    width: 2%;
+    margin-top: 5%;
+    padding-top: 4cm;
+    padding-right: .5cm;
+}
+
 /* ******** Event End ******** */
