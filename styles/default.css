@@ -99,25 +99,16 @@ body
 /*Footer*/
 footer
 {
-    margin: 0px;
-    padding: 0px;
     margin-top: auto;
     background-color: #2C462C;
 }
 .footer-nav h3
 {
     text-align: left;
-    font-size: small;
+    font-size: large;
     font-family: nunito;
     color: #F4924B;
     padding-left: 30px;
-}
-
-.page-footer
-{
-    background-color: #2C462C;
-    padding: .5px;
-    margin: 0px;
 }
 
 .footer-bottom li
