@@ -102,9 +102,11 @@ footer
     margin-top: auto;
     background-color: #2C462C;
 }
+
+
 .footer-nav h3
 {
-    text-align: left;
+    float: left;
     font-size: large;
     font-family: nunito;
     color: #F4924B;
@@ -114,12 +116,23 @@ footer
 .footer-bottom li
 {
     display: inline-block;
+    align-items: center;
 }
 
 .footer-bottom a
 {
     color: #F4924B;
     text-decoration: none;
+}
+
+#social{
+    float: right;
+    padding-right: 40px;
+}
+.social{
+    width: 30px;
+    padding-top: 17px;
+    padding-left: 30px;
 }
 
 /* ******** INDEX END ******** */
